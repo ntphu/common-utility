@@ -1,0 +1,23 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=smc.exe | %BOOTDRIVE%\Program Files\Sygate Personal Firewall
+ICON=smc.exe | %BOOTDRIVE%\Program Files\Sygate Personal Firewall
+DESCRIPTION=This plugin will erase the log files of Sygate Personal Firewall Pro from your harddisk
+HIDEOPTION = 1
+PROVIDER= aneesh
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+
+[DISK_OPTION]
+0=Delete Log Files <1> 0
+
+[REGISTRY]
+
+
+[DISK]
+0=%PATH%\*.log

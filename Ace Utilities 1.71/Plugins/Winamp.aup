@@ -1,0 +1,24 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=winamp.exe | %BOOTDRIVE%\Program Files\Winamp
+ICON=%PATH%\Winamp.exe
+DESCRIPTION=This plugin will clean recent playlist of  Winamp
+HIDEOPTION = 1
+PROVIDER= aneesh
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+
+[DISK_OPTION]
+
+0=Clear PlayList <1> 0
+
+[REGISTRY]
+
+
+[DISK]
+0=%PATH%\Winamp.m3u

@@ -1,0 +1,27 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=
+ICON=opera.exe | %BOOTDRIVE%\Program Files\Opera\opera.exe
+DESCRIPTION=This plugin will clean the cache, cookies, followed links, and address drop down list of Opera Web Browser 7.x
+PROVIDER=hari
+VERSION=1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+[DISK_OPTION]
+0=Cache <1> 0
+1=Cookies<0> 1
+2=Address Bar<0> 3
+3=History<1> 5
+
+[REGISTRY]
+
+
+[DISK]
+5=%appdata%\Opera\Opera7\profile\global.dat
+1=%appdata%\Opera\Opera7\profile\cookies4.dat
+0=%appdata%\Opera\Opera7\profile\cache4\*.*
+3=%appdata%\Opera\Opera7\profile\opera.dir

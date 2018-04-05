@@ -1,0 +1,26 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH= | %BOOTDRIVE%\Program Files\Xing\AudioCatalyst
+ICON= 
+DESCRIPTION=This plugin will clean the stored temp files in your AudioCatalyst default folder. 
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+[DISK_OPTION]
+
+0=Clean Temp Files <1> 2
+
+[REGISTRY]
+
+
+[DISK]
+
+0 = %PATH%\*.wav/s
+1 = %PATH%\*.mp3/s
+2 = %PATH%\*.tmp/s

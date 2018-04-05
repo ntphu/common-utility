@@ -1,0 +1,22 @@
+[SETTINGS]
+NAME=unused
+PATH=dap.exe | %BOOTDRIVE%\Program Files\DAP
+ICON= dap.exe| %BOOTDRIVE%\Program Files\DAP\dap.exe
+DESCRIPTION=Erase DAP Download URLs History
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+0=Clean Recent File List<1> 0,1
+[DISK_OPTION]
+0=Clean Recent File List<1> 1
+[REGISTRY]
+
+0=DELVAL=HKEY_CURRENT_USER\Software\SpeedBit\Download Accelerator\HistoryCombo,URLHistory
+1=DELKEY=HKEY_LOCAL_MACHINE\SOFTWARE\SpeedBit\Download Accelerator\FileList
+
+[DISK]
+0=%PATH%\Ads\*.*
+1=%PATH%\Temp\*.*

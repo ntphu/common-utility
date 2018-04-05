@@ -1,0 +1,15 @@
+[SETTINGS]
+NAME=unused
+PATH=
+ICON=
+Description = Erase CuteHTML Recent Files
+HIDEOPTION = 1
+
+[REG_OPTION]
+0=Clean Recent File History <1> 0
+
+[DISK_OPTION]
+
+
+[REGISTRY]
+0= DELKEY=HKEY_CURRENT_USER\Software\GlobalSCAPE\CuteHTML\1.X\Recent File List

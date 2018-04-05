@@ -1,0 +1,24 @@
+[SETTINGS]
+NAME=unused
+PATH=
+ICON=
+DESCRIPTION=This plugin cleans the Naviscope history.
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+
+[REG_OPTION]
+
+
+[DISK_OPTION]
+0=Clean Recent File List<1> 0,1,2
+
+[REGISTRY]
+
+
+[DISK]
+
+
+0=%AppData%\Naviscope\history.dat
+1=%AppData%\Naviscope\navdfile.dat
+2=%AppData%\Naviscope\navrfile.dat

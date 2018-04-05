@@ -1,0 +1,32 @@
+[SETTINGS]
+NAME=unused
+PATH=
+ICON=winword.exe
+Description=Delete Office 2000 Recent Documents
+PROVIDER= hari
+VERSION =1.0
+
+
+[REG_OPTION]
+0=Clear Access File History <1> 0
+1=Clear PowerPoint File History <1> 1
+2=Clear FrontPage File History <1> 2,3,4
+3=Clear Excel File History <1> 5
+4=Clear Word File History <1> 6
+
+
+[DISK_OPTION]
+0=Clear History <1> 0
+
+[REGISTRY]
+
+0=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\Office\9.0\Access\Settings
+1=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\Office\9.0\PowerPoint\Recent File List
+2=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\FrontPage\Explorer\FrontPage Explorer\Recent File List
+3=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\FrontPage\Explorer\FrontPage Explorer\Recent Page List
+4=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\FrontPage\Explorer\FrontPage Explorer\Recent Web List
+5=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\Office\9.0\Excel\Recent Files
+6=DELVAL=HKEY_CURRENT_USER\Software\Microsoft\Office\9.0\Word\Data,settings
+
+[DISK]
+0=%appdata%\Microsoft\Office\Recent\*.*

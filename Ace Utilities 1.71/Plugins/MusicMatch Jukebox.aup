@@ -1,0 +1,25 @@
+[SETTINGS]
+NAME=unused
+PATH=
+ICON=
+Description = Erase playlist of MusicMatch Jukebox
+HIDEOPTION = 1
+PATHMUSTEXIST = 1
+PROVIDER = hari
+VERSION = 1.0
+
+[REG_OPTION]
+
+[DISK_OPTION]
+0=Clean Recent File List<1> 0,1,2,3,4,5
+
+[REGISTRY]
+
+
+[DISK]
+0=%BOOTDRIVE%\Program Files\MUSICMATCH\MUSICMATCH Jukebox\Cache\*.*
+1=%BOOTDRIVE%\Program Files\MUSICMATCH\MUSICMATCH Jukebox\Library\*.*
+2=%BOOTDRIVE%\Program Files\MUSICMATCH\MUSICMATCH Jukebox\Playlist\*.*/s
+3=%BOOTDRIVE%\Program Files\MUSICMATCH\MUSICMATCH Jukebox\TEMP\*.*
+4=%BOOTDRIVE%\Program Files\MUSICMATCH\MUSICMATCH Jukebox\*.m3u
+5=%BOOTDRIVE%\Program Files\MUSICMATCH\MUSICMATCH Jukebox\*.log

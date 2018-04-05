@@ -1,0 +1,23 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=
+ICON=uedit32.exe | %BOOTDRIVE%\Program Files\UltraEdit\uedit32.exe
+DESCRIPTION=This plugin will clean the recent file list of UltraEdit
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+
+[REG_OPTION]
+
+
+[DISK_OPTION]
+
+0=Clean Recent File List<1> 0
+
+[REGISTRY]
+
+
+[DISK]
+0 = INIFILE = %windir%\uedit32.ini|Recent File List

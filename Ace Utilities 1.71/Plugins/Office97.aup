@@ -1,0 +1,21 @@
+[SETTINGS]
+NAME=unused
+PATH=
+ICON=winword.exe
+Description=Delete Office 97 Recent Documents
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+
+[REG_OPTION]
+0=Clean Recent File History <1> 0
+
+[DISK_OPTION]
+
+
+[REGISTRY]
+0=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+
+[DISK]
+
+

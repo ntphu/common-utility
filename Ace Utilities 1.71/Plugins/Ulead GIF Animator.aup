@@ -1,0 +1,19 @@
+[SETTINGS]
+NAME=unused
+PATH=
+ICON=
+Description = Erase  Ulead GIF Animator's Recent Files
+HIDEOPTION = 1
+
+[REG_OPTION]
+0=Clean Recent File History <1> 0
+
+[DISK_OPTION]
+
+
+[REGISTRY]
+0 = DELKEY=DelRegValueList1=HKEY_CURRENT_USER\Software\Ulead Systems\Ulead GIF Animator\5.0\Recent File List
+
+[DISK]
+
+

@@ -1,0 +1,32 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=
+ICON=
+DESCRIPTION=This plugin will clean the recent history from RealONe Player.
+PROVIDER= hari
+VERSION =1.0
+
+[REG_OPTION]
+
+0=Clear Recent Clips List <1> 0,1
+
+[DISK_OPTION]
+
+0=Clear History <1> 0,3,4
+1=Clear Cookies<1> 2
+2=Clear Urls<1> 1
+
+[REGISTRY]
+
+0=DELKLIST=HKey_Current_User\Software\RealNetworks\RealPlayer\6.0\Preferences,MostRecentClips
+1=DELKEY=HKey_Current_User\Software\RealNetworks\RealPlayer\6.0\Preferences\LastOpenFileDir
+
+[DISK]
+
+0=%AppData%\Real\RealOne Player\History\*.*
+1=%AppData%\Real\RealOne Player\urls.ini
+2=%AppData%\Real\RealOne Player\cookies.txt
+3=%AppData%\Real\RealOne Player\ctd.dat
+4=%AppData%\Real\RealOne Player\realplayer.ste

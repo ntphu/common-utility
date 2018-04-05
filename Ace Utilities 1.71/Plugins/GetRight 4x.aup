@@ -1,0 +1,26 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=getright.exe | %BOOTDRIVE%\Program Files\GetRight
+ICON=getright.exe | %PATH%\getright.exe
+DESCRIPTION=This plugin will erase the list of recently accessed download files in GetRight 4.x. from the harddisk
+PROVIDER= hari
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+0=Clean Recent File List <1> 0,1
+
+[DISK_OPTION]
+
+0=Clean Download History<1> 0
+
+[REGISTRY]
+0=DELKEY=HKEY_CURRENT_USER\Software\HeadLight\GetRight\MRU
+1=DELKEY=HKEY_CURRENT_USER\Software\HeadLight\GetRight\TypedURLS
+
+
+[DISK]
+0=%PATH%\GetRight.hst

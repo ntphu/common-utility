@@ -1,0 +1,26 @@
+[SETTINGS]
+NAME=unused
+PATH=%BOOTDRIVE%\Program Files\Xing\XingMP3 Player
+ICON=XMPLAYER.EXE | %BOOTDRIVE%\Program Files\Xing\XingMP3 Player\XMPLAYER.EXE
+DESCRIPTION=This plugin will clean the list of recently open files and the playlist editor in XingMp3 Player.
+HIDEOPTION = 1
+PROVIDER = hari
+VERSION = 1.0
+
+[REG_OPTION]
+0=Clean Recent File History <1> 0,1,2,3,4,5,6
+
+[DISK_OPTION]
+0=Clean Recent File List<1> 0
+
+[REGISTRY]
+0=DELVAL=HKey_Current_User\Software\Xing Technology Corp.\XingMP3 Player,srecentfile1
+1=DELVAL=HKey_Current_User\Software\Xing Technology Corp.\XingMP3 Player,srecentfile2
+2=DELVAL=HKey_Current_User\Software\Xing Technology Corp.\XingMP3 Player,srecentfile3
+3=DELVAL=HKey_Current_User\Software\Xing Technology Corp.\XingMP3 Player,srecentfile4
+4=DELVAL=HKey_Current_User\Software\Xing Technology Corp.\XingMP3 Player,srecentfile5
+5=DELVAL=HKey_Current_User\Software\Xing Technology Corp.\XingMP3 Player,srecentfile6
+6=DELVAL=HKey_Current_User\Xing Technology Corp.\XingMP3 Player,splaylistfile
+
+[DISK]
+0=%PATH%\XingMP3Player.xpl

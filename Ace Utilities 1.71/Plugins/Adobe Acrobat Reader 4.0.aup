@@ -1,0 +1,28 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=
+ICON= acrord32.exe
+DESCRIPTION=This plugin will clean the list of recently accessed .pdf files in Adobe Acrobat Reader 4.x.
+HIDEOPTION = 1   
+PROVIDER= hari
+VERSION =1.0
+
+
+[REG_OPTION]
+
+0=Clean Recent PDF History <1> 0
+
+[DISK_OPTION]
+
+
+
+[REGISTRY]
+
+0=DELLIST=HKEY_CURRENT_USER\Software\Adobe\Acrobat Reader\4.0\AdobeViewer,avpRecentFile
+
+[DISK]
+
+
+

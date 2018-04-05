@@ -1,0 +1,20 @@
+For quick lessons to use the main features, choose "Brief Tutorial" from Help menu.
+Press F1 at any time to see current topic related help. 
+Select the drives you want to scan for unneeded files, duplicate files and invalid shortcuts from the Configuration /options dialog.
+Quickly access the options dialog and more options by right-clicking on the list view.
+To select multiple items in the list,hold down the Ctrl key on your keyboard and select each item with your left mouse button.
+Clean your registry once in a week.
+You can undo changes made to your registry, from the 'Regclean' tab of the options dialog.
+Keep the autostartup program list to a minimum number, so that your computer boots faster, is protected from harmful programs, and the applications run faster.
+Include your backup folders in the 'exclude'  tab of the options dialog.Folders in the exclude tab will not be scanned.
+Buy Ace Utilities and you will be entitled to free future updates.
+For answers to Frequently Asked Questions (FAQs), choose Frequently Asked Questions from Help menu
+You can add the types of files that will be considered as unneeded file using the options dialog.
+You can autosize the colomns in the list to fit its contents by activating the list (click on it), and pressing Ctrl+ on the keyboard.
+Send you doubts / comments etc to the author using "feedback" from the Support menu. (Even unregistered users can).
+Advanced users can open a registry key in Regedit using the context menu.
+Disable auto-startup programs by unchecking them and see the difference when you reboot! 
+
+;add imporant event tips here
+It is always a good idea to backup the registry, if you are cleaning registry for the first time.To Backup on Win 98/ME:- Use the 'Backup' icon below 'Clean Registry'.To restore if needed, reboot to DOS and then type scanreg /restore. To Backup on Win 2000/XP, use the Backup Utility from StartMenu/ Programs/ Accessories/ SystemTools.
+Warning!!! Be careful when deleting duplicate files. You SHOULD delete only one file from each group, and that also after making sure it is duplicate.

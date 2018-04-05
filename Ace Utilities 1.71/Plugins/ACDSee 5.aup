@@ -1,0 +1,28 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=%APPDATA%\ACD Systems\ACDSee
+ICON=acdsee.exe | %BOOTDRIVE%\Program Files\ACD Systems\ACDSee\acdsee.exe
+DESCRIPTION=Erase ACDSee 5.0's history data
+PROVIDER= hari
+VERSION =1.0
+HIDEOPTION = 1   
+[REG_OPTION]
+
+0=Clean Recent Folder History <1> 0,1,2,3,4,5
+
+[DISK_OPTION]
+
+
+[REGISTRY]
+
+
+0=DELVAL=HKEY_CURRENT_USER\Software\ACD Systems\ACDSee,ImageDB
+1=DELVAL=HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50,OpenFolder
+2=DELVAL=HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50,HistMCFDestFolder
+3=DELVAL=HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50,HistPaths
+4=DELVAL=HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50,HistSearchText
+5=DELVAL=HKEY_CURRENT_USER\Software\ACD Systems\ACDSee\50,HistFileFilters
+
+[DISK]

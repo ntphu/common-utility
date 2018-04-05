@@ -1,0 +1,24 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=
+ICON=
+DESCRIPTION=This plugin will erase the list of recently opened .zip files in PKZip for Windows.
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+
+[REG_OPTION]
+
+
+
+[DISK_OPTION]
+
+0=Clean Recent Zip List<1> 0
+
+[REGISTRY]
+
+
+[DISK]
+0=INIFILE=%windir%\pkzipw.ini | Recent File List

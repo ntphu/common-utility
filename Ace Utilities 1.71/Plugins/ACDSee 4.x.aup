@@ -1,0 +1,29 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=%APPDATA%\ACD Systems\ACDSee
+ICON=acdsee.exe | %BOOTDRIVE%\Program Files\ACD Systems\ACDSee\acdsee.exe
+DESCRIPTION=This plugin will erase your recent folder && file information from ACDSee32
+PROVIDER= hari
+VERSION =1.0
+HIDEOPTION = 1   
+[REG_OPTION]
+
+0=Clean Recent Folder History <1> 0,1,2,3,4
+
+[DISK_OPTION]
+
+0=Clean Recent File List<1> 0,1
+
+[REGISTRY]
+
+0=DELVAL=HKey_Current_User\Software\ACD Systems\ACDSee,openfolder
+1=DELVAL=HKey_Current_User\Software\ACD Systems\ACDSee,lastfolder
+2=DELVAL=HKey_Current_User\Software\ACD Systems\ACDSee,histpaths
+3=DELVAL=HKEY_CURRENT_USER\Software\ACD Systems\ACDSee,ImageDB
+4=DELVAL=HKEY_CURRENT_USER\Software\ACD Systems\ACDSee,OpenFolder
+
+[DISK]
+0=%PATH%\ImageDB.ddf
+1=%PATH%\ImageDB.dtf

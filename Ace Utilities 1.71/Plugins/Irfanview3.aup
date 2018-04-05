@@ -1,0 +1,23 @@
+[SETTINGS]
+
+NAME=unused
+PATH=%BOOTDRIVE%\Program Files\IrfanView
+ICON=%PATH%\i_view32.exe
+DESCRIPTION=This plugin will clean the recent data from Irfanview 3.x
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+
+[DISK_OPTION]
+
+0=Clean Recent File List<1> 0
+
+[REGISTRY]
+
+
+[DISK]
+0 = INIFILE=%PATH%\i_view32.ini|MRUD

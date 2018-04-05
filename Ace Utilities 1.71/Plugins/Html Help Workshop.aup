@@ -1,0 +1,28 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=
+ICON=hhw.exe | %BOOTDRIVE%\Program Files\HTML Help workshop\hhw.exe
+DESCRIPTION=This plugin will erase recent file entries of HTML Help Workshop from your registry
+HIDEOPTION = 1
+PROVIDER= aneesh
+VERSION =1.0
+
+[REG_OPTION]
+
+0=Clean Recent File List<1> 0,1,2,3,4,5
+
+[DISK_OPTION]
+
+
+[REGISTRY]
+0=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\HTML Help Workshop\Compressed HTML
+1=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\HTML Help Workshop\Html Titles
+2=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\HTML Help Workshop\Map Files
+3=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\HTML Help Workshop\Project Files
+4=DELKEY=HKEY_CURRENT_USER\Software\Microsoft\HTML Help Workshop\Recent File List
+5=DELVAL=HKEY_CURRENT_USER\Software\Microsoft\HTML Help Workshop\Settings,LastProject
+
+
+[DISK]

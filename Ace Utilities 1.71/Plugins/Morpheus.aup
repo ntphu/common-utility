@@ -1,0 +1,24 @@
+[SETTINGS]
+NAME=unused
+PATH=%BOOTDRIVE%\Program Files\Morpheus
+ICON=
+Description=Erase Morpheus History Data
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+0=Clean Recent File History <1> 0
+
+[DISK_OPTION]
+//0=Clean Recent File List<1> 0,1
+
+[REGISTRY]
+
+0=DELKEY=HKEY_CURRENT_USER\Software\Morpheus\Morpheus\Recent File List
+
+[DISK]
+
+0=%PATH%\Db\*.*
+1=%PATH%\My Shared Folder\*.*

@@ -1,0 +1,19 @@
+[SETTINGS]
+NAME=unused
+PATH=zipmagic.exe
+ICON= zipmagic.exe
+DESCRIPTION= Erase Recent data from Zip Magic
+HIDEOPTION = 1
+provider =  hari
+version = 1.0
+[REG_OPTION]
+0=Clean Recent File History <1> 0
+
+[DISK_OPTION]
+
+
+[REGISTRY]
+0=DELKEY=HKEY_CURRENT_USER\Software\Mijenix\ZipMagic\CurrentVersion\Recent
+
+[DISK]
+

@@ -1,0 +1,30 @@
+ * This contents file was created with the free trial version of HelpScribble 6.3.1
+ * Help files created with the free trial version must not be distributed.
+
+:BASE AceUtils.hlp
+:TITLE Ace Utilities
+1 Introduction
+2 Introduction=Scribble10
+2 About=Scribble70
+2 System Requirements=Scribble80
+2 Frequently Asked Questions=Scribble90
+1 Utilities
+2 AutoStart Programs=Scribble15
+2 Clean System Registry=Scribble20
+2 Find Duplicate Files=Scribble30
+2 Fix Invalid ShortCuts=Scribble40
+2 Remove Unneeded Files=Scribble50
+2 Erase Your History=Scribble60
+1 Configuration
+2 Options Dialog=Scribble32
+1 License and Registration
+2 License Agreement=Scribble35
+2 How To Register=Scribble37
+1 Quick Tutorial
+2 Brief Tutorial=Scribble21
+2 Tutorial on Unneeded Files=Scribble13
+2 Tutorial on Registry Scanning=Scribble14
+2 Tutorial on AutoStart Programs=Scribble16
+2 Tutorial on ShortCut scanning=Scribble17
+2 Tutorial on Erasing History=Scribble18
+2 Tutorial on Duplicate File Scanning=Scribble19

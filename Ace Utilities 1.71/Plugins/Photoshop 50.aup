@@ -1,0 +1,33 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=%BOOTDRIVE%\Program Files\Adobe\Photoshop 5.0\Adobe Photoshop Settings
+ICON=
+DESCRIPTION=This plugin will wash the list of recently accessed files in Photoshop 5.x.
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+[DISK_OPTION]
+
+0=Clean Recent File List<1> 0,1,2,3,4,5,6,7,8,9
+
+[REGISTRY]
+
+
+[DISK]
+
+0= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE1
+1= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE2
+2= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE3
+3= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE4
+4= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE5
+5= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE6
+6= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE7
+7= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE8
+8= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE9
+9= INIFILE=%PATH%\photos50.ini | PHOTOSHOP | FILE10

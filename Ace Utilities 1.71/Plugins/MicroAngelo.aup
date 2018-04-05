@@ -1,0 +1,25 @@
+[SETTINGS]
+
+NAME=unused
+PATH=
+ICON=muexplor.exe | %BOOTDRIVE%\Program Files\Microangelo\muexplor.exe
+DESCRIPTION=This plugin erases the recent history from MircroAngelo
+PROVIDER= hari
+VERSION =1.0
+
+[REG_OPTION]
+
+0=Erase Studio History<1> 0
+1=Erase Librarian History<0> 1
+2=Erase Animator History<1> 2
+
+[DISK_OPTION]
+
+
+[REGISTRY]
+0=DELKEY=HKey_Current_User\Software\Impact\Microangelo\Studio\MRU List
+1=DELKEY=HKey_Current_User\Software\Impact\Microangelo\Librarian\MRU List
+2=DELKEY=HKey_Current_User\Software\Impact\Microangelo\Animator\MRU List
+
+
+[DISK]

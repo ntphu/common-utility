@@ -1,0 +1,23 @@
+[SETTINGS]
+NAME=unused
+PATH=
+ICON=
+Description = Erase Mass Download's hisory data
+HIDEOPTION = 1
+PROVIDER = hari
+VERSION = 1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+[DISK_OPTION]
+0=Clean Recent File List<1> 0,1,2,3
+
+[REGISTRY]
+
+
+[DISK]
+
+0=%BOOTDRIVE%\Program Files\Mass Downloader\INDEX\*.*
+1=%BOOTDRIVE%\Program Files\Mass Downloader\history.bak
+2=%BOOTDRIVE%\Program Files\Mass Downloader\history.dat
+3=%BOOTDRIVE%\Program Files\Mass Downloader\massdown.dat

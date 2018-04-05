@@ -1,0 +1,26 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH= %BOOTDRIVE%\Program Files\America Online 7.0\download
+ICON= aol.exe
+DESCRIPTION=Erase AOL 7.0 Chat Log
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+
+
+[DISK_OPTION]
+
+0=Clean Recent Chat Log<1> 0
+
+[REGISTRY]
+
+
+[DISK]
+
+0 = %PATH%\*.log

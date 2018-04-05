@@ -1,0 +1,29 @@
+
+[SETTINGS]
+
+NAME=unused
+PATH=icq.exe | %BOOTDRIVE%\Program Files\ICQ
+ICON=icq.exe | %PATH%\icq.exe
+DESCRIPTION=This plugin will erase the ICQ internet cache files, ICQ cookies, ICQ recent chat data, and all the ICQ received (downloaded) files.
+PROVIDER= hari
+VERSION =1.0
+PATHMUSTEXIST = 1
+
+[REG_OPTION]
+
+
+[DISK_OPTION]
+
+0=Clean Cache<1> 0
+1=Clean Cookies <0>1
+2=Clean Chat Data <1>2
+3=Clean Received Files <1>3
+[REGISTRY]
+
+
+[DISK]
+0 = %PATH%\AteBrowser\*.*/s
+1= %PATH%\Bookmark\*.*/s
+2 =%PATH%\Chats\*.*/s
+3 =%PATH%\Received Files\*.*/s
+

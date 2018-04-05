@@ -1,0 +1,29 @@
+[SETTINGS]
+NAME=unused
+PATH=
+ICON=
+DESCRIPTION=This plugin cleans the Norton Commander history.
+HIDEOPTION = 1
+PROVIDER= hari
+VERSION =1.0
+
+[REG_OPTION]
+0=Clean Recent File History <1> 0,1,2,3,4,5,6,7,8,9
+
+[DISK_OPTION]
+
+
+[REGISTRY]
+0=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\nc_comp\Recent File List
+1=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\nc_comp\Compare Files\File Name 1
+2=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\nc_comp\Compare Files\File Name 2
+3=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\Recent File List
+4=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU\Copy Destination
+5=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU\Filters
+6=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU\Find Source
+7=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU\Mkdir
+8=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU\Select
+9=DELKEY=HKEY_CURRENT_USER\Software\Symantec\Norton Commander\NC\MRU\Split Size
+
+
+[DISK]
